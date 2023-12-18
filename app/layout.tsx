@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   title: 'Ashish Job Portfolio Website',
   description: 'Ashish Job Portfolio Website',
   openGraph: {
-    images: '/metadata.png'
-  },
+    images: '/metadata.png',
+  }
 }
 
 export default function RootLayout({
