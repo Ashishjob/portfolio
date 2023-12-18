@@ -14,7 +14,6 @@
     "react-dom": "^18.2.0",
     "react-scroll-progress-bar": "^1.1.13",
     "react-transition-group": "^4.4.5",
-    "react-typist": "^2.0.5",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
