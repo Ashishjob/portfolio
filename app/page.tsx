@@ -4,6 +4,8 @@ import Header from "../app/header/page";
 import { useState } from "react";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
+import Head from "next/head";
+import Main from "./main/page";
 
 export default function Home() {
   const [finishedTyping, setFinishedTyping] = useState(false);
@@ -54,7 +56,7 @@ export default function Home() {
           </div>
         </div>
       </CSSTransition>
-      {finishedTyping && <Header />}
+      {finishedTyping && <Main />}
     </main>
   );
 }

@@ -18,14 +18,15 @@
 
 body {
   overflow-x: hidden;
+  overflow-y: scroll;
   color: rgb(var(--foreground-rgb));
     background-color: var(--color-primary);
     @apply bg-primary;
 }
 
 @font-face {
-  font-family: 'Robot Invaders';
-  src: url('/fonts/robot-invaders.ttf') format('truetype');
+  font-family: 'Rubik', sans-serif;
+  src: url('/fonts/RobotInvaders.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
