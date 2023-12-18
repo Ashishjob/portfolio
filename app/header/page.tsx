@@ -8,8 +8,8 @@ export default function Header() {
   
   return (
     <section>
-      <div className="flex flex-row justify-center">
-        <div className="bg-black w-2 mt-12"></div>
+      <div className="flex flex-row justify-center text-light-black">
+        <div className="bg-light-black w-2 mt-12"></div>
         <div className="font-robot-invaders mt-8 ml-4 mr-4 w-fit whitespace-nowrap">
           <span className="text-5xl tracking-wider lg:text-9xl md:text-7xl lg:tracking-wide">Ashish Job</span>
           <div className="bg-red h-8 md:mb-2"></div>
@@ -17,7 +17,7 @@ export default function Header() {
             Computer Science @ University of Houston
           </span>
         </div>
-        <div className="bg-black w-2 mt-12"></div>
+        <div className="bg-light-black w-2 mt-12"></div>
       </div>
       <HeaderImages />
     </section>
