@@ -18,10 +18,10 @@ export default function Home() {
     <main className="flex flex-col bg-primary w-screen h-screen overflow-hidden">
       <CSSTransition
         in={isWelcomeMessageVisible}
-        // timeout={500}
-        // classNames="fade"
-        // unmountOnExit
-        // onExited={handleExitComplete}
+        timeout={500}
+        classNames="fade"
+        unmountOnExit
+        onExited={handleExitComplete}
       >
         <div className="absolute w-full h-full flex items-center justify-center font-robot-invaders">
           <div className="flex items-center justify-center h-screen text-xl md:text-4xl">
