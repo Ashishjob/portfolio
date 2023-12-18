@@ -15,7 +15,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col bg-primary w-screen h-screen overflow-hidden hidden lg:block">
+    <main className="flex flex-col bg-primary w-screen h-screen overflow-hidden">
       <CSSTransition
         in={isWelcomeMessageVisible}
         timeout={500}
