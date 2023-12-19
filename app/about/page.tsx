@@ -8,7 +8,7 @@ import { Rubik_80s_Fade } from "next/font/google";
 export default function About() {
   return (
     <section className="flex flex-row justify-center items-center text-light-black">
-      <div className="flex flex-row bg-primary h-96 w-1/2 mt-10">
+      <div className="flex flex-row bg-primary w-1/2 mt-10">
         <div className="bg-light-black"></div>
         <div className="font-robot-invaders w-fit text-light-black text-center tracking-widest mx-4 my-4">
         <span className="text-2xl md:text-4xl underline">
