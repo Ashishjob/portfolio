@@ -4,7 +4,7 @@ import { experiences } from "../components/Experiences";
 const Experience = () => {
   return (
     <main>
-      <div className="font-robot-invaders text-2xl md:text-4xl underline items-center justify-center flex flex-row mt-8">
+      <div className="font-robot-invaders text-2xl md:text-4xl underline items-center justify-center flex flex-row mt-16">
         work experience
       </div>
       <div className="flex items-center justify-center mt-12">
