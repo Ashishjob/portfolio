@@ -13,12 +13,12 @@ const Experience = () => {
             return (
               <ExperienceCard key={ind}>
                 <div className="justify-center">
-                  <p className="text-left text-2xl tracking-wide hover:underline hover:text-red">
+                  <p className="text-left text-xl md:text-2xl tracking-wide hover:underline hover:text-red">
                     <a href={experience.url} target="_blank">
                       {experience.position}
                     </a>
                   </p>
-                  <p className="text-left text-red text-xl tracking-wider my-2">
+                  <p className="text-left text-red md:text-xl tracking-wider my-2">
                     {experience.time}
                   </p>
                   <p className="text-left text-sm md:text-base items-center mb-12 tracking-widest md:tracking-wider">

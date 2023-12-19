@@ -12,6 +12,7 @@
     "next": "14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-scroll-into-view-if-needed": "^3.0.1",
     "react-scroll-progress-bar": "^1.1.13",
     "react-topbar-progress-indicator": "^4.1.1",

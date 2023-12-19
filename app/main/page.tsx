@@ -7,6 +7,7 @@ import Typewriter from "typewriter-effect";
 import Head from "next/head";
 import About from "../about/page";
 import Experience from "../experiences/page";
+import Projects from "../projects/page";
 
 export default function Main() {
     return (
@@ -14,6 +15,7 @@ export default function Main() {
             <Header />
             <About />
             <Experience />
+            <Projects />
         </main>
     );
 }
