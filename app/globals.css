@@ -94,3 +94,8 @@ body {
 .carousel .thumbs-wrapper .thumb {
   border: 2px solid #D66161 !important; 
 }
+
+.carousel .carousel-status {
+  color: #333333 !important; 
+  text-shadow: none !important;
+}
