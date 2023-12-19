@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Slider from "react-slick";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const projectData = [
   {
@@ -31,14 +32,6 @@ const projectData = [
   },
 ];
 
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-};
-
 export default function Projects() {
   return (
     <main className="items-center h-screen">
@@ -46,9 +39,9 @@ export default function Projects() {
         <span className="text-2xl md:text-4xl underline">Projects</span>
         <span className="text-base mt-2">Slide to see the projects</span>
       </div>
-      <Slider {...settings} className="">
+      <Carousel>
         {projectData.map((project, index) => (
-          <div key={index} className="flex flex-col items-center h-full">
+          <div key={index} className="flex flex-col items-center ">
             <div className="">
               <Image
                 className="select-none"
@@ -100,7 +93,7 @@ export default function Projects() {
             </div>
           </div>
         ))}
-      </Slider>
+      </Carousel>
     </main>
   );
 }
