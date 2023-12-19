@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const projects = [
+const projectData = [
   {
     image: "/portfolioImage.svg",
     title: "portfolio",
@@ -40,7 +40,7 @@ export default function Projects() {
         Projects
       </div>
       <Carousel showThumbs={false} className="h-1/2 w-full lg:w-1/2">
-        {projects.map((project, index) => (
+        {projectData.map((project, index) => (
           <div
             key={index}
             className="flex flex-col lg:flex-row items-center justify-center h-full"
@@ -52,6 +52,7 @@ export default function Projects() {
                 alt="Project Image"
                 width={50}
                 height={50}
+                layout="responsive"
               />
             </div>
             <div className="flex flex-col items-center justify-center w-full lg:w-1/2 text-xs md:text-base">
@@ -73,23 +74,23 @@ export default function Projects() {
                 ))}
               </ul>
               <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row justify-evenly items-center mt-8 w-full text-xs md:text-sm">
-  {project.demo && (
-    <button
-      className="hover:bg-red rounded-lg text-primary bg-light-black p-2 mb-2"
-      onClick={() => window.open(project.demo, "_blank")}
-    >
-      View Demo
-    </button>
-  )}
-  {project.code && (
-    <button
-      className="hover:bg-red rounded-lg text-primary bg-light-black p-2 mb-2"
-      onClick={() => window.open(project.code, "_blank")}
-    >
-      View Code
-    </button>
-  )}
-</div>
+                {project.demo && (
+                  <button
+                    className="hover:bg-red rounded-lg text-primary bg-light-black p-2 mb-2"
+                    onClick={() => window.open(project.demo, "_blank")}
+                  >
+                    View Demo
+                  </button>
+                )}
+                {project.code && (
+                  <button
+                    className="hover:bg-red rounded-lg text-primary bg-light-black p-2 mb-2"
+                    onClick={() => window.open(project.code, "_blank")}
+                  >
+                    View Code
+                  </button>
+                )}
+              </div>
             </div>
           </div>
         ))}
