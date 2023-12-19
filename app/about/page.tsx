@@ -12,7 +12,7 @@ export default function About() {
         <div className="bg-light-black"></div>
         <div className="font-robot-invaders w-fit text-light-black text-center tracking-widest mx-4 my-4">
         <span className="text-2xl md:text-4xl underline">
-            about me
+            About Me
         </span>
         <br></br><br></br>
             <span className="text-sm md:text-xl">

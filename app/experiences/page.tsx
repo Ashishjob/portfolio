@@ -5,10 +5,10 @@ const Experience = () => {
   return (
     <main>
       <div className="font-robot-invaders text-2xl md:text-4xl underline items-center justify-center flex flex-row mt-16">
-        work experience
+        Work Experience
       </div>
       <div className="flex items-center justify-center mt-12">
-        <ul className="flex flex-col items-center text-center justify-center text-light-black mx-10 w-2/3 lg:w-1/2">
+        <ul className="flex flex-col items-center text-center justify-center text-light-black mx-10 w-2/3 lg:w-1/2 mb-12">
           {experiences.map((experience, ind) => {
             return (
               <ExperienceCard key={ind}>
