@@ -25,7 +25,7 @@ body {
 }
 
 @font-face {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'RobotInvaders';
   src: url('/fonts/RobotInvaders.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;

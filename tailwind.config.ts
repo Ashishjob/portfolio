@@ -15,7 +15,7 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        'robot-invaders': ['Robot Invaders', 'sans-serif'],
+        'RobotInvaders': ['Robot Invaders', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
