@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import dynamic from 'next/dynamic';
+
+const DynamicCarousel = dynamic(() => import('react-responsive-carousel').then(module => ({ default: module.Carousel })), { ssr: false });
 
 const projectData = [
   {
