@@ -1,10 +1,8 @@
 "use client";
 import { CSSTransition } from "react-transition-group";
-import Header from "../app/header/page";
 import { useState } from "react";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
-import Head from "next/head";
 import Main from "./main/page";
 
 export default function Home() {
