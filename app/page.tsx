@@ -25,7 +25,7 @@ export default function Home() {
         unmountOnExit
         onExited={handleExitComplete}
       >
-        <div className="absolute w-full h-full flex items-center justify-center font-robot-invaders">
+        <div className="absolute w-full h-full flex items-center justify-center font-RobotInvaders">
           <div className="flex items-center justify-center h-screen text-xl md:text-4xl">
             <Image
               src="/panda.gif"
