@@ -14,21 +14,22 @@ const projects = [
     demo: "https://ashishjob.com",
   },
   {
-    image: "",
-    title: "admin portal",
+    image: "/portfolioImage.svg",
+    title: "portfolio",
     description:
-      "full-stack web-application that streamlines adminstrative duties",
-    icons: [],
-    code: "https://github.com/Ashishjob/CougarCS-AdminPortal",
-    demo: "",
+      "responsive website built to showcase projects and experience.",
+    icons: ["nextjs"],
+    code: "https://github.com/Ashishjob/portfolio",
+    demo: "https://ashishjob.com",
   },
   {
-    image: "",
-    title: "tamacatchi",
-    description: "pokemon game constructed with object-oriented programming.",
-    icons: [],
-    code: "https://github.com/Ashishjob/Pokemon-Tamagotchi-1437",
-    demo: "",
+    image: "/portfolioImage.svg",
+    title: "portfolio",
+    description:
+      "responsive website built to showcase projects and experience.",
+    icons: ["nextjs"],
+    code: "https://github.com/Ashishjob/portfolio",
+    demo: "https://ashishjob.com",
   },
 ];
 
