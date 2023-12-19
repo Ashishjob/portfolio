@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col bg-primary w-screen h-screen overflow-hidden text-light-black">
+    <main className="flex flex-col bg-primary w-screen h-screen overflow-hidden text-light-black font-RobotInvaders">
       <CSSTransition
         in={isWelcomeMessageVisible}
         timeout={500}
@@ -25,7 +25,7 @@ export default function Home() {
         unmountOnExit
         onExited={handleExitComplete}
       >
-        <div className="absolute w-full h-full flex items-center justify-center font-RobotInvaders">
+        <div className="absolute w-full h-full flex items-center justify-center">
           <div className="flex items-center justify-center h-screen text-xl md:text-4xl">
             <Image
               src="/panda.gif"
