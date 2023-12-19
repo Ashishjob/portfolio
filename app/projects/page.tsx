@@ -9,29 +9,26 @@ const projects = [
     title: "portfolio",
     description:
       "responsive website built to showcase projects and experience.",
-    icons: ["nextjs", "ts", "tailwind", "figma"],
-    url: "https://github.com/Ashishjob/HorizontalPortfolioWebsite",
+    icons: ["nextjs"],
+    code: "https://github.com/Ashishjob/portfolio",
     demo: "https://ashishjob.com",
-    code: "h",
   },
   {
-    image: "/admin1.gif",
+    image: "",
     title: "admin portal",
     description:
       "full-stack web-application that streamlines adminstrative duties",
-    icons: ["supabase", "ts", "tailwind", "git"],
-    url: "https://github.com/Ashishjob/CougarCS-AdminPortal",
+    icons: [],
+    code: "https://github.com/Ashishjob/CougarCS-AdminPortal",
     demo: "",
-    code: "",
   },
   {
-    image: "/tamagotchi1.gif",
+    image: "",
     title: "tamacatchi",
     description: "pokemon game constructed with object-oriented programming.",
-    icons: ["cpp", "git", "figma"],
-    url: "https://github.com/Ashishjob/Pokemon-Tamagotchi-1437",
+    icons: [],
+    code: "https://github.com/Ashishjob/Pokemon-Tamagotchi-1437",
     demo: "",
-    code: "",
   },
 ];
 
