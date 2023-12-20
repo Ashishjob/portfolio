@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { projectData } from "../components/Projects";
 
-
 const settings = {
   dots: true,
   infinite: true,
@@ -13,6 +12,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
 };
+
 export default function Projects() {
   return (
     <main className="items-center h-screen">
@@ -20,7 +20,7 @@ export default function Projects() {
         <span className="text-2xl md:text-4xl underline">Projects</span>
         <span className="text-base mt-2">Slide to see the projects</span>
       </div>
-      <Slider {...settings} className="">
+      {/* <Slider {...settings} className="">
         {projectData.map((project, index) => (
           <div key={index} className="flex flex-col items-center h-full">
             <div className="">
@@ -74,7 +74,7 @@ export default function Projects() {
             </div>
           </div>
         ))}
-      </Slider>
+      </Slider> */}
     </main>
   );
 }
