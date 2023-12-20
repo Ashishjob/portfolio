@@ -39,7 +39,7 @@ export default function HeaderImages() {
             />
           </Link>
           <Link
-            href="https://www.ashishjob.com/Ashish_Job_Resume.pdf"
+            href="/Ashish_Job_Resume.pdf"
             target="_blank"
           >
             <Image
