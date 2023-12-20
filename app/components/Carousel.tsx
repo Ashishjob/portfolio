@@ -34,13 +34,20 @@ export default function Carousel(): JSX.Element {
   };
 
   const endDrag = (e: React.MouseEvent) => {
-    setDragEnd(e.clientX);
-    if (dragEnd < dragStart) {
+    const newDragEnd = e.clientX;
+    const deltaX = newDragEnd - dragStart;
+  
+    const dragThreshold = 50;
+  
+    if (deltaX > dragThreshold) {
       nextSlide();
-    } else {
+    } else if (deltaX < -dragThreshold) {
       prevSlide();
     }
+  
+    setDragEnd(newDragEnd);
   };
+  
 
   const nextSlide = () => {
     setCurrent(current === projectData.length - 1 ? 0 : current + 1);
