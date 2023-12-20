@@ -51,7 +51,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex flex-col items-center justify-center mb-12"
+      className="flex flex-col items-center justify-center mb-12 mt-24"
     >
       <h1 className="hover:text-light-black w-fit text-2xl md:text-4xl underline">
         Contact
