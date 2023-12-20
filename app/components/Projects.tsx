@@ -3,7 +3,7 @@ export const projectData = [
       image: "/portfolioProject.svg",
       title: "portfolio",
       description:
-        "responsive website built to showcase projects and experience.",
+        "A professionally crafted responsive website designed to showcase a diverse array of projects and professional experiences.",
       icons: ["nextjs", "typescript", "tailwindcss", "git", "figma"],
       code: "https://github.com/Ashishjob/portfolio",
       demo: "https://ashishjob.com",
@@ -13,7 +13,7 @@ export const projectData = [
       image: "/adminPortal.svg",
       title: "CougarCS Admin Portal",
       description:
-        "Filler",
+        "A NextJS and TypeScript-powered hub for managing our Computer Science organization, using Supabase for authentication and AWS-hosted PostgreSQL for smooth data handling.",
       icons: ["nextjs", "tailwindcss", "git", "supabase"],
       code: "https://github.com/CougarCS/CougarCS-AdminPortal",
       demo: "",
@@ -23,7 +23,7 @@ export const projectData = [
       image: "/dataSoc.svg",
       title: "Data & Society: Data Visualization Project",
       description:
-        "Filler",
+        "Leveraging Kepler.gl for dynamic data visualization, we crafted linear regression models and a user-friendly website, merging insights with ease.",
       icons: ["python", "keplergl", "nextjs", "typescript", "tailwindcss", "git", "figma"],
       code: "https://github.com/Ashishjob/HON-3397-Website",
       demo: "https://hon-3397-website.vercel.app/",
@@ -33,7 +33,7 @@ export const projectData = [
       image: "/cfg.svg",
       title: "JPMC Code for Good: CanCare",
       description:
-        "Filler",
+        "We enhanced UI/UX design for 100% form completion, optimized the matching algorithm for reduced latency, and introduced an AI chatbot for clients' instant access, securing 1st place in the competition.",
       icons: ["python", "vite", "reactjs", "typescript", "tailwindcss", "git", "figma", "firebase", "llama-index"],
       code: "",
       demo: "",
@@ -43,7 +43,7 @@ export const projectData = [
       image: "/caseQuest.svg",
       title: "MISSO x CougarCS: Case Quest",
       description:
-        "Filler",
+        "We secured 3rd place by collaboratively developing an online marketplace for students. Utilizing Figma, we crafted a working prototype, system design, and userflow to achieve our goal",
       icons: ["figma"],
       code: "",
       demo: "https://www.figma.com/proto/yxq73L0ROn9tvJZSwPrB6D/Untitled?node-id=2-3&starting-point-node-id=2%3A3&mode=design&t=IARvrb7DNLPQc4Th-1",
