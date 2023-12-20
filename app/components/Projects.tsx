@@ -41,7 +41,7 @@ export const projectData = [
     },
     {
       image: "/caseQuest.svg",
-      title: "MISSO x CougarCS: Case Quest",
+      title: "MISSO x CougarCS Case Quest: Uni-Link",
       description:
         "We secured 3rd place by collaboratively developing an online marketplace for students. Utilizing Figma, we crafted a working prototype, system design, and userflow to achieve our goal",
       icons: ["figma"],
