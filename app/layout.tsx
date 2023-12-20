@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import localFont from 'next/font/local'
 
-const myFont = localFont({ src: './fonts/RobotInvaders.ttf' })
+const myFont = localFont({ src: './RobotInvaders.ttf' })
 
 
 export const metadata: Metadata = {
