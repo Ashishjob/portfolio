@@ -1,10 +1,4 @@
-"use client";
-import { CSSTransition } from "react-transition-group";
 import Header from "../header/page";
-import { useState } from "react";
-import Image from "next/image";
-import Typewriter from "typewriter-effect";
-import Head from "next/head";
 import About from "../about/page";
 import Experience from "../experiences/page";
 import Projects from "../projects/page";

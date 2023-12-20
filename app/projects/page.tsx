@@ -10,7 +10,7 @@ const projectData = [
     title: "portfolio",
     description:
       "responsive website built to showcase projects and experience.",
-    icons: ["nextjs"],
+    icons: ["nextjs", "typescript", "tailwind"],
     code: "https://github.com/Ashishjob/portfolio",
     demo: "https://ashishjob.com",
   },
@@ -19,7 +19,7 @@ const projectData = [
     title: "portfolio",
     description:
       "responsive website built to showcase projects and experience.",
-    icons: ["nextjs"],
+    icons: ["nextjs", "tailwind"],
     code: "https://github.com/Ashishjob/portfolio",
     demo: "https://ashishjob.com",
   },
@@ -28,7 +28,7 @@ const projectData = [
     title: "portfolio",
     description:
       "responsive website built to showcase projects and experience.",
-    icons: ["nextjs"],
+    icons: ["nextjs", "typescript", "tailwind"],
     code: "https://github.com/Ashishjob/portfolio",
     demo: "https://ashishjob.com",
   },
@@ -69,7 +69,7 @@ export default function Projects() {
               </p>
               <ul className="flex text-xs text-left w-2/3">
                 {project.icons.map((icon, icon_ind) => (
-                  <li key={icon_ind} className="w-8 h-8 lg:w-12 lg:h-12">
+                  <li key={icon_ind} className="w-8 h-8 lg:w-12 lg:h-12 mr-8">
                     <Image
                       src={`/${icon}.svg`}
                       width={50}
