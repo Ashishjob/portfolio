@@ -10,7 +10,7 @@ export default function Main() {
             <Header />
             <About />
             <Experience />
-            {/* <Projects /> */}
+            <Projects />
             <Contact />
         </main>
     );
