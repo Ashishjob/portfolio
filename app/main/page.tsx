@@ -1,7 +1,7 @@
 import Header from "../header/page";
 import About from "../about/page";
 import Experience from "../experiences/page";
-import Projects from "../projects/page";
+// import Projects from "../projects/page";
 
 export default function Main() {
     return (
