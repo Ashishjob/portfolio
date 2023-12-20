@@ -147,7 +147,7 @@ export default function Carousel(): JSX.Element {
           )}
           </div>
         ))}
-        <div className="flex justify-center space-x-3">
+        <div className="flex justify-center space-x-3 mt-4">
           {projectData.map((_, index) => (
             <button
               key={index}
