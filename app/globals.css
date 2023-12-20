@@ -24,13 +24,6 @@ body {
     @apply bg-primary;
 }
 
-@font {
-  font-family: 'RobotInvaders';
-  src: url('/fonts/RobotInvaders.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 ::selection {
   background: #E8E1D4;
   color: #D66161;

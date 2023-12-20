@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
@@ -5,10 +6,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { projectData } from "../components/Projects";
 
-
-
 export default function Projects() {
-
+  const [hoveredIcon, setHoveredIcon] = useState<string | null>(null);
   const settings = {
     dots: true,
     infinite: true,
@@ -16,19 +15,21 @@ export default function Projects() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-  
+
   return (
     <main className="items-center h-screen">
-      <div className=" items-center justify-center flex flex-col mb-12">
+      <div className=" items-center justify-center flex flex-col">
         <span className="text-2xl md:text-4xl underline">Projects</span>
-        <span className="text-base mt-2">Slide to see the projects</span>
+        <span className="text-base mt-2 animate-pulse">
+          Slide to see the projects
+        </span>
       </div>
-      <Slider {...settings} className="">
+      {/* <Slider {...settings} className="">
         {projectData.map((project, index) => (
           <div key={index} className="flex flex-col items-center h-full">
-            <div className="">
+            <div className="m-4 p-4 lg:w-1/2 mx-auto">
               <Image
-                className="select-none"
+                className="select-none rounded-3xl"
                 src={project.image}
                 alt="Project Image"
                 width={50}
@@ -46,13 +47,24 @@ export default function Projects() {
               <ul className="flex text-xs text-left w-2/3">
                 {project.icons.map((icon, icon_ind) => (
                   <li key={icon_ind} className="w-8 h-8 lg:w-12 lg:h-12 mr-8">
-                    <Image
-                      src={`/${icon}.svg`}
-                      width={50}
-                      height={50}
-                      alt="icon"
-                      className="select-none"
-                    />
+                    <div
+                      onMouseEnter={() => setHoveredIcon(icon)}
+                      onMouseLeave={() => setHoveredIcon(null)}
+                      className="relative"
+                    >
+                      <Image
+                        src={`/${icon}.svg`}
+                        width={50}
+                        height={50}
+                        alt="icon"
+                        className="select-none rounded-lg"
+                      />
+                      {hoveredIcon === icon && (
+                        <div className="absolute top-0 left-0 bg-primary border-2 border-light-black text-xs px-2 py-1 rounded">
+                          {icon}
+                        </div>
+                      )}
+                    </div>
                   </li>
                 ))}
               </ul>
@@ -77,7 +89,7 @@ export default function Projects() {
             </div>
           </div>
         ))}
-      </Slider>
+      </Slider> */}
     </main>
   );
 }

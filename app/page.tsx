@@ -8,6 +8,7 @@ import Main from "./main/page";
 export default function Home() {
   const [finishedTyping, setFinishedTyping] = useState(false);
   const [isWelcomeMessageVisible, setIsWelcomeMessageVisible] = useState(true);
+  
 
   const handleExitComplete = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });

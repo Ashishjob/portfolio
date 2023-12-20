@@ -4,26 +4,26 @@ export const projectData = [
       title: "portfolio",
       description:
         "responsive website built to showcase projects and experience.",
-      icons: ["nextjs", "typescript", "tailwind"],
+      icons: ["nextjs", "typescript", "tailwindcss", "figma"],
       code: "https://github.com/Ashishjob/portfolio",
       demo: "https://ashishjob.com",
     },
     {
-      image: "/portfolioImage.svg",
-      title: "portfolio",
+      image: "/adminPortal.svg",
+      title: "CougarCS Admin Portal",
       description:
         "responsive website built to showcase projects and experience.",
-      icons: ["nextjs", "tailwind"],
-      code: "https://github.com/Ashishjob/portfolio",
-      demo: "https://ashishjob.com",
+      icons: ["nextjs", "tailwindcss", "git"],
+      code: "https://github.com/CougarCS/CougarCS-AdminPortal",
+      demo: "",
     },
     {
-      image: "/portfolioImage.svg",
-      title: "portfolio",
+      image: "/dataSoc.svg",
+      title: "Data & Society: Data Visualization Project",
       description:
         "responsive website built to showcase projects and experience.",
-      icons: ["nextjs", "typescript", "tailwind"],
-      code: "https://github.com/Ashishjob/portfolio",
-      demo: "https://ashishjob.com",
+      icons: ["python", "keplergl", "nextjs", "typescript", "tailwindcss", "figma"],
+      code: "https://github.com/Ashishjob/HON-3397-Website",
+      demo: "https://docs.google.com/presentation/d/1JfcGZgNcTMChKZFgFx2aYGrDBVClSnuJjORsl8ye5jo/edit?usp=sharing",
     },
   ];
