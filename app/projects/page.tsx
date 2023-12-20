@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const projectData = [
   {
-    image: "/portfolioImage.svg",
+    image: "/portfolioProject.svg",
     title: "portfolio",
     description:
       "responsive website built to showcase projects and experience.",
