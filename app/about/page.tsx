@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import HeaderImages from "../components/page";
+import HeaderImages from "../components/HeaderImages";
 
 export default function About() {
   return (
