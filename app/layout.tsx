@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={myFont.className}>{children}</body>
+      <body className="font-RobotInvaders">{children}</body>
     </html>
   )
 }
