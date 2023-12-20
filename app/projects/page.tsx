@@ -20,7 +20,7 @@ export default function Projects() {
         <span className="text-2xl md:text-4xl underline">Projects</span>
         <span className="text-base mt-2">Slide to see the projects</span>
       </div>
-      {/* <Slider {...settings} className="">
+      <Slider {...settings} className="">
         {projectData.map((project, index) => (
           <div key={index} className="flex flex-col items-center h-full">
             <div className="">
@@ -74,7 +74,7 @@ export default function Projects() {
             </div>
           </div>
         ))}
-      </Slider> */}
+      </Slider>
     </main>
   );
 }
