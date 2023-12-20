@@ -61,7 +61,7 @@ export default function Projects() {
                         className="select-none rounded-lg"
                       />
                       {hoveredIcon === icon && (
-                        <div className="absolute top-0 left-0 bg-primary border-2 border-light-black text-xs px-2 py-1 rounded">
+                        <div className="whitespace-nowrap absolute top-0 left-0 bg-primary border-2 border-light-black text-xs px-2 py-1 rounded">
                           {icon}
                         </div>
                       )}
@@ -80,11 +80,19 @@ export default function Projects() {
                 )}
                 {project.code && (
                   <button
-                    className="hover:bg-red rounded-lg text-primary bg-light-black p-2 mb-2"
+                    className="hover:bg-red rounded-lg text-primary mr-6 bg-light-black p-2 mb-2"
                     onClick={() => window.open(project.code, "_blank")}
                   >
                     View Code
                   </button>
+                )}
+                {project.presentation && (
+                  <button
+                  className="hover:bg-red rounded-lg text-primary mr-6 bg-light-black p-2 mb-2"
+                  onClick={() => window.open(project.presentation, "_blank")}
+                >
+                  View Presentation
+                </button>
                 )}
               </div>
             </div>

@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import localFont from 'next/font/local'
 
-const myFont = localFont({ src: './RobotInvaders.ttf' })
+const myFont = localFont({ src: './fonts/RobotInvaders.ttf' })
 
 
 export const metadata: Metadata = {
@@ -25,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-RobotInvaders">{children}</body>
+      <body className={myFont.className}>{children}</body>
     </html>
   )
 }
