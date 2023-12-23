@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import localFont from 'next/font/local'
 
-const myFont = localFont({ src: './fonts/tls.ttf' })
+const myFont = localFont({ src: './fonts/RobotInvaders.ttf' })
 
 
 export const metadata: Metadata = {
