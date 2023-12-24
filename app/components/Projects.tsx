@@ -1,4 +1,34 @@
 export const projectData = [
+  {
+    image: "/cfg.svg",
+    title: "JPMC Code for Good: CanCare",
+    description:
+      "We enhanced UI/UX design for 100% form completion, optimized the matching algorithm for reduced latency, and introduced an AI chatbot for clients' instant access, securing 1st place in the competition.",
+    icons: ["python", "vite", "reactjs", "typescript", "tailwindcss", "git", "figma", "firebase", "flask", "numpy", "pytorch", "llama-index", "scikit-learn"],
+    code: "",
+    demo: "",
+    presentation: "https://docs.google.com/presentation/d/10fuB7g0I9USuqXfd3E4mWJGHU1K7uWNftr1yhKM3yKg/edit?usp=sharing",
+  },
+  {
+    image: "/dataSoc.svg",
+    title: "Data & Society: Data Visualization Project",
+    description:
+      "Leveraging Kepler.gl for dynamic data visualization, we crafted linear regression models and a user-friendly website, merging insights with ease.",
+    icons: ["python", "keplergl", "nextjs", "typescript", "tailwindcss", "git", "pandas", "numpy", "scikit-learn", "figma"],
+    code: "https://github.com/Ashishjob/HON-3397-Website",
+    demo: "https://hon-3397-website.vercel.app/",
+    presentation: "https://docs.google.com/presentation/d/1JfcGZgNcTMChKZFgFx2aYGrDBVClSnuJjORsl8ye5jo/edit?usp=sharing",
+  },
+  {
+    image: "/adminPortal.svg",
+    title: "CougarCS Admin Portal",
+    description:
+      "A NextJS and TypeScript-powered hub for managing our Computer Science organization, using Supabase for authentication and AWS-hosted PostgreSQL for smooth data handling.",
+    icons: ["nextjs", "tailwindcss", "git", "supabase"],
+    code: "https://github.com/CougarCS/CougarCS-AdminPortal",
+    demo: "",
+    presentation: "",
+  },
     {
       image: "/portfolioProject.svg",
       title: "portfolio",
@@ -8,36 +38,6 @@ export const projectData = [
       code: "https://github.com/Ashishjob/portfolio",
       demo: "https://ashishjob.com",
       presentation: "",
-    },
-    {
-      image: "/adminPortal.svg",
-      title: "CougarCS Admin Portal",
-      description:
-        "A NextJS and TypeScript-powered hub for managing our Computer Science organization, using Supabase for authentication and AWS-hosted PostgreSQL for smooth data handling.",
-      icons: ["nextjs", "tailwindcss", "git", "supabase"],
-      code: "https://github.com/CougarCS/CougarCS-AdminPortal",
-      demo: "",
-      presentation: "",
-    },
-    {
-      image: "/dataSoc.svg",
-      title: "Data & Society: Data Visualization Project",
-      description:
-        "Leveraging Kepler.gl for dynamic data visualization, we crafted linear regression models and a user-friendly website, merging insights with ease.",
-      icons: ["python", "keplergl", "nextjs", "typescript", "tailwindcss", "git", "pandas", "numpy", "scikit-learn", "figma"],
-      code: "https://github.com/Ashishjob/HON-3397-Website",
-      demo: "https://hon-3397-website.vercel.app/",
-      presentation: "https://docs.google.com/presentation/d/1JfcGZgNcTMChKZFgFx2aYGrDBVClSnuJjORsl8ye5jo/edit?usp=sharing",
-    },
-    {
-      image: "/cfg.svg",
-      title: "JPMC Code for Good: CanCare",
-      description:
-        "We enhanced UI/UX design for 100% form completion, optimized the matching algorithm for reduced latency, and introduced an AI chatbot for clients' instant access, securing 1st place in the competition.",
-      icons: ["python", "vite", "reactjs", "typescript", "tailwindcss", "git", "figma", "firebase", "flask", "numpy", "pytorch", "llama-index", "scikit-learn"],
-      code: "",
-      demo: "",
-      presentation: "https://docs.google.com/presentation/d/10fuB7g0I9USuqXfd3E4mWJGHU1K7uWNftr1yhKM3yKg/edit?usp=sharing",
     },
     {
       image: "/caseQuest.svg",
