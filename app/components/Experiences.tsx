@@ -1,6 +1,6 @@
 export const experiences = [
     {
-        position: "Incoming Engineering Technician I - NASA",
+        position: "Incoming Machine Learning Intern - NASA",
         time: "[ Starting January 2024 ]",
         url: "https://www.nasa.gov/johnson/",
         description: "I will be working on the Integrated Mission Operation Contract III (IMOC III) Avionics Systems Team, but more details coming soon!"
