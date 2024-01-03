@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { projectData } from "../components/Projects";
@@ -13,19 +13,19 @@ export default function Carousel(): JSX.Element {
     setCurrent(index);
   };
 
-    useEffect(() => {
+  useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'ArrowRight') {
+      if (e.key === "ArrowRight") {
         nextSlide();
-      } else if (e.key === 'ArrowLeft') {
+      } else if (e.key === "ArrowLeft") {
         prevSlide();
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener("keydown", handleKeyDown);
     };
   }, [current]);
 
@@ -36,18 +36,17 @@ export default function Carousel(): JSX.Element {
   const endDrag = (e: React.MouseEvent) => {
     const newDragEnd = e.clientX;
     const deltaX = newDragEnd - dragStart;
-  
+
     const dragThreshold = 50;
-  
+
     if (deltaX > dragThreshold) {
       nextSlide();
     } else if (deltaX < -dragThreshold) {
       prevSlide();
     }
-  
+
     setDragEnd(newDragEnd);
   };
-  
 
   const nextSlide = () => {
     setCurrent(current === projectData.length - 1 ? 0 : current + 1);
@@ -59,12 +58,12 @@ export default function Carousel(): JSX.Element {
 
   return (
     <div className="" onMouseDown={startDrag} onMouseUp={endDrag}>
-    {projectData.map((project, index) => (
-      <div
-        key={index}
-        className={index === current ? "slide active" : "slide"}
-      >
-        {index === current && (
+      {projectData.map((project, index) => (
+        <div
+          key={index}
+          className={index === current ? "slide active" : "slide"}
+        >
+          {index === current && (
             <div className="flex flex-col items-center h-full">
               <div className="flex items-center m-4 p-2 w-2/3 lg:w-1/2 mx-2">
                 <button
@@ -97,7 +96,7 @@ export default function Carousel(): JSX.Element {
                 <p className="mb-4 text-base md:text-xl text-left w-2/3">
                   {project.description}
                 </p>
-                <ul className="flex text-xs text-left w-2/3">
+                <ul className="grid grid-cols-7 lg:grid-cols-10 gap-4 text-xs text-left w-2/3">
                   {project.icons.map((icon, icon_ind) => (
                     <li key={icon_ind} className="w-8 h-8 lg:w-12 lg:h-12 mr-8">
                       <div
@@ -152,18 +151,20 @@ export default function Carousel(): JSX.Element {
               </div>
             </div>
           )}
-          </div>
-        ))}
-        <div className="flex justify-center space-x-3 mt-4">
-          {projectData.map((_, index) => (
-            <button
-              key={index}
-              className={`h-2 w-2 rounded-full ${current === index ? 'bg-light-black' : 'bg-light-black opacity-50'}`}
-              onClick={() => goToSlide(index)}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
         </div>
+      ))}
+      <div className="flex justify-center space-x-3 mt-4">
+        {projectData.map((_, index) => (
+          <button
+            key={index}
+            className={`h-2 w-2 rounded-full ${
+              current === index ? "bg-light-black" : "bg-light-black opacity-50"
+            }`}
+            onClick={() => goToSlide(index)}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
       </div>
-        );
-    }
+    </div>
+  );
+}

@@ -4,7 +4,7 @@ export const projectData = [
     title: "JPMC Code for Good: CanCare",
     description:
       "We enhanced UI/UX design for 100% form completion, optimized the matching algorithm for reduced latency, and introduced an AI chatbot for clients' instant access, securing 1st place in the competition.",
-    icons: ["python", "vite", "reactjs", "typescript", "tailwindcss", "git", "figma", "firebase", "flask", "numpy", "pytorch", "llama-index", "scikit-learn"],
+    icons: ["python", "vite", "reactjs", "typescript", "tailwindcss", "git", "figma", "firebase", "flask", "numpy", "pytorch", "llama-index", "matplotlib", "scikit-learn"],
     code: "",
     demo: "",
     presentation: "https://docs.google.com/presentation/d/10fuB7g0I9USuqXfd3E4mWJGHU1K7uWNftr1yhKM3yKg/edit?usp=sharing",
@@ -14,7 +14,7 @@ export const projectData = [
     title: "Data & Society: Data Visualization Project",
     description:
       "Leveraging Kepler.gl for dynamic data visualization, we crafted linear regression models and a user-friendly website, merging insights with ease.",
-    icons: ["python", "keplergl", "nextjs", "typescript", "tailwindcss", "git", "pandas", "numpy", "scikit-learn", "figma"],
+    icons: ["python", "keplergl", "nextjs", "typescript", "tailwindcss", "git", "pandas", "numpy", "scikit-learn", "matplotlib", "figma"],
     code: "https://github.com/Ashishjob/HON-3397-Website",
     demo: "https://hon-3397-website.vercel.app/",
     presentation: "https://docs.google.com/presentation/d/1JfcGZgNcTMChKZFgFx2aYGrDBVClSnuJjORsl8ye5jo/edit?usp=sharing",
