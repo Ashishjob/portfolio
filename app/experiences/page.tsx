@@ -2,8 +2,13 @@ import Image from "next/image";
 import { experiences } from "../components/Experiences";
 import { motion } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
+import React, { createContext } from 'react';
 
 const Experience = () => {
+  const [ ref1, inView ] = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+  });
   return (
     <main>
       <div className=" text-2xl md:text-4xl underline items-center justify-center flex flex-row mt-16">
@@ -12,15 +17,11 @@ const Experience = () => {
       <div className="flex items-center justify-center mt-12">
       <ul className="flex flex-col items-center text-left justify-center text-light-black mx-10 w-2/3 lg:w-1/2 mb-12">
   {experiences.map((experience, ind) => {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const { ref, inView } = useInView({
-      triggerOnce: true,
-      threshold: 0.5,
-    });
+    
 
     return (
       <motion.div
-        ref={ref}
+        ref={ref1}
         initial={{ opacity: 0 }}
         animate={{ opacity: inView ? 1 : 0 }}
         transition={{ delay: ind * 0.2 }}
