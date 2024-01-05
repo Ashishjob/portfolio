@@ -57,17 +57,12 @@ export default function Carousel(): JSX.Element {
   };
 
   return (
-    <div className="carousel" onMouseDown={startDrag} onMouseUp={endDrag}>
-  {projectData.map((project, index) => (
-    <div
-      key={index}
-      className={`slide ${index === current ? "active" : ""}`}
-      style={{
-        opacity: index === current ? 1 : 0,
-        transform: `scale(${index === current ? 1 : 0.9})`,
-        zIndex: index === current ? 1 : 0
-      }}
-    >
+    <div className="" onMouseDown={startDrag} onMouseUp={endDrag}>
+      {projectData.map((project, index) => (
+        <div
+          key={index}
+          className={index === current ? "slide active" : "slide"}
+        >
           {index === current && (
             <div className="flex flex-col items-center h-full">
               <div className="flex items-center m-4 p-2 w-2/3 lg:w-1/2 mx-2">
