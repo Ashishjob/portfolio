@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { experiences } from "../components/Experiences";
+import { motion } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
 const Experience = () => {
   return (
@@ -8,27 +10,39 @@ const Experience = () => {
         Work Experience
       </div>
       <div className="flex items-center justify-center mt-12">
-        <ul className="flex flex-col items-center text-left justify-center text-light-black mx-10 w-2/3 lg:w-1/2 mb-12">
-          {experiences.map((experience, ind) => {
-            return (
-              <ExperienceCard key={ind}>
-                <div className="justify-center">
-                  <p className="text-left text-xl md:text-2xl tracking-wide hover:underline hover:text-red">
-                    <a href={experience.url} target="_blank">
-                      {experience.position}
-                    </a>
-                  </p>
-                  <p className="text-left text-red md:text-xl tracking-wider my-2">
-                    {experience.time}
-                  </p>
-                  <p className="text-left text-sm md:text-base items-center mb-12 tracking-widest md:tracking-wider">
-                    {experience.description}
-                  </p>
-                </div>{" "}
-              </ExperienceCard>
-            );
-          })}
-        </ul>
+      <ul className="flex flex-col items-center text-left justify-center text-light-black mx-10 w-2/3 lg:w-1/2 mb-12">
+  {experiences.map((experience, ind) => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const { ref, inView } = useInView({
+      triggerOnce: true,
+      threshold: 0.5,
+    });
+
+    return (
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: inView ? 1 : 0 }}
+        transition={{ delay: ind * 0.2 }}
+        key={ind}
+      >
+        <div className="justify-center">
+          <p className="text-left text-xl md:text-2xl tracking-wide hover:underline hover:text-red">
+            <a href={experience.url} target="_blank">
+              {experience.position}
+            </a>
+          </p>
+          <p className="text-left text-red md:text-xl tracking-wider my-2">
+            {experience.time}
+          </p>
+          <p className="text-left text-sm md:text-base items-center mb-12 tracking-widest md:tracking-wider">
+            {experience.description}
+          </p>
+        </div>
+      </motion.div>
+    );
+  })}
+</ul>
       </div>
     </main>
   );
