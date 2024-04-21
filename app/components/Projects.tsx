@@ -1,5 +1,60 @@
 export const projectData = [
   {
+    image: "",
+    title: "Baker Museum",
+    description:
+      "This initiative was undertaken as part of the Database Systems course (COSC 3380) at the University of Houston. Our aim was to design and implement a sophisticated database system tailored for an art museum environment.",
+    icons: ["reactjs", "javascript", "mysql", "node", "postman", "azure", "threejs" ,"tailwindcss", "git", "figma"],
+    code: "https://github.com/Ashishjob/museuma",
+    demo: "https://www.bakermuseum.art/",
+    presentation: "",
+    link: "https://www.bakermuseum.art/",
+  },
+  {
+    image: "",
+    title: "GitStudy",
+    description:
+      "We created a fullstack web application.",
+    icons: ["nextjs", "typescript", "supabase", "shadcn", "tailwindcss", "git", "figma"],
+    code: "https://github.com/Brodypen/GitStudy",
+    demo: "https://git-study-self.vercel.app/",
+    presentation: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcHS42y8ooT8eriJFxXPJQL%2FGitStudy---HackMISSO%3Ftype%3Ddesign%26node-id%3D20-179%26t%3DVLp4eX3kwuNkFgHm-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D20%253A179%26mode%3Ddesign",
+    link: "https://git-study-self.vercel.app/",
+  },
+  {
+    image: "",
+    title: "Templit",
+    description:
+      "We created a fullstack web application.",
+    icons: ["javascript", "reactjs", "tailwindcss", "git", "figma"],
+    code: "",
+    demo: "https://templit.net/",
+    presentation: "",
+    link: "https://templit.net/",
+  },
+  {
+    image: "",
+    title: "Stellar Scholars",
+    description:
+      "We created a fullstack web application.",
+    icons: ["reactjs", "pixijs", "javascript", "openai", "tailwindcss", "git", "figma"],
+    code: "https://github.com/brohudev/stellar-scholar",
+    demo: "http://stellarscholars.tech/",
+    presentation: "https://youtu.be/37vrC4Xpajg?si=2DMGUyDueTuIlPty",
+    link: "http://stellarscholars.tech/",
+  },
+  {
+    image: "",
+    title: "Bloom",
+    description:
+      "We created a fullstack web application.",
+    icons: ["figma"],
+    code: "",
+    demo: "",
+    presentation: "https://docs.google.com/presentation/d/10fuB7g0I9USuqXfd3E4mWJGHU1K7uWNftr1yhKM3yKg/edit?usp=sharing",
+    link: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtbX9jNSBJlXaXvGx6PWDHX%2Fbloom---Catalyst-Designathon%3Ftype%3Ddesign%26node-id%3D65-1407%26t%3DYxGivtXy8oCqaFMq-1%26scaling%3Dscale-down%26page-id%3D2%253A4%26starting-point-node-id%3D65%253A1407%26mode%3Ddesign",
+  },
+  {
     image: "/cfg.svg",
     title: "JPMC Code for Good: CanCare",
     description:
@@ -7,7 +62,8 @@ export const projectData = [
     icons: ["python", "vite", "reactjs", "typescript", "tailwindcss", "git", "figma", "firebase", "flask", "numpy", "pytorch", "llama-index", "matplotlib", "scikit-learn"],
     code: "",
     demo: "",
-    presentation: "https://docs.google.com/presentation/d/10fuB7g0I9USuqXfd3E4mWJGHU1K7uWNftr1yhKM3yKg/edit?usp=sharing",
+    presentation: "https://youtu.be/5AnWT0wbHak",
+    link: "https://www.youtube.com/embed/5AnWT0wbHak?si=jyczimiQ6PAIwhWC",
   },
   {
     image: "/dataSoc.svg",
@@ -18,16 +74,7 @@ export const projectData = [
     code: "https://github.com/Ashishjob/HON-3397-Website",
     demo: "https://hon-3397-website.vercel.app/",
     presentation: "https://docs.google.com/presentation/d/1JfcGZgNcTMChKZFgFx2aYGrDBVClSnuJjORsl8ye5jo/edit?usp=sharing",
-  },
-  {
-    image: "/adminPortal.svg",
-    title: "CougarCS Admin Portal",
-    description:
-      "A NextJS and TypeScript-powered hub for managing our Computer Science organization, using Supabase for authentication and AWS-hosted PostgreSQL for smooth data handling.",
-    icons: ["nextjs", "tailwindcss", "git", "supabase"],
-    code: "https://github.com/CougarCS/CougarCS-AdminPortal",
-    demo: "",
-    presentation: "",
+    link: "https://hon-3397-website.vercel.app/",
   },
     {
       image: "/portfolioProject.svg",
@@ -38,6 +85,7 @@ export const projectData = [
       code: "https://github.com/Ashishjob/portfolio",
       demo: "https://ashishjob.com",
       presentation: "",
+      link: "http://localhost:3000/",
     },
     {
       image: "/caseQuest.svg",
@@ -48,5 +96,6 @@ export const projectData = [
       code: "",
       demo: "https://www.figma.com/proto/yxq73L0ROn9tvJZSwPrB6D/Untitled?node-id=2-3&starting-point-node-id=2%3A3&mode=design&t=IARvrb7DNLPQc4Th-1",
       presentation: "https://docs.google.com/presentation/d/1UH5isF9kVRYcIzQqBLpSj8_o4gKgDN35M_T61vbZO_c/edit#slide=id.g35f391192_00",
+      link: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fyxq73L0ROn9tvJZSwPrB6D%2FUntitled%3Fnode-id%3D2-3%26starting-point-node-id%3D2%253A3%26t%3DgXdH5qMbaidiTPAi-1%26mode%3Ddesign",
     },
   ];
