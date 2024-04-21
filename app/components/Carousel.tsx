@@ -72,7 +72,7 @@ export default function Carousel(): JSX.Element {
                 >
                   &larr;
                 </button>
-                {/* <div className="w-full">
+                <div className="sm:block lg:hidden">
                   <Image
                     className="select-none rounded-3xl"
                     src={project.image}
@@ -81,8 +81,15 @@ export default function Carousel(): JSX.Element {
                     height={50}
                     layout="responsive"
                   />
-                </div> */}
-                  <iframe title="Project Frame" src={project.link} className="w-[1500px] h-[750px] bg-[#ffffff]"></iframe>                <button
+                </div>
+                <div className="hidden lg:block">
+                  <iframe
+                    title="Project Frame"
+                    src={project.link}
+                    className="w-[1030px] h-[550px] bg-[#ffffff]"
+                  />
+                </div>{" "}
+                <button
                   className="justify-end hover:text-red text-xl md:text-4xl ml-4 md:ml-8"
                   onClick={nextSlide}
                 >

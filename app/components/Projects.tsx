@@ -1,6 +1,6 @@
 export const projectData = [
   {
-    image: "",
+    image: "/bakermuseum.svg",
     title: "Baker Museum",
     description:
       "This initiative was undertaken as part of the Database Systems course (COSC 3380) at the University of Houston. Our aim was to design and implement a sophisticated database system tailored for an art museum environment.",
@@ -11,10 +11,10 @@ export const projectData = [
     link: "https://www.bakermuseum.art/",
   },
   {
-    image: "",
+    image: "/gitstudy.svg",
     title: "GitStudy",
     description:
-      "We created a fullstack web application.",
+      "GitStudy is a study group platform that we built for hackMISSO 2024 with Next.js. It allows users to create and join study groups, share resources, and collaborate on projects.",
     icons: ["nextjs", "typescript", "supabase", "shadcn", "tailwindcss", "git", "figma"],
     code: "https://github.com/Brodypen/GitStudy",
     demo: "https://git-study-self.vercel.app/",
@@ -22,10 +22,10 @@ export const projectData = [
     link: "https://git-study-self.vercel.app/",
   },
   {
-    image: "",
+    image: "/templit.svg",
     title: "Templit",
     description:
-      "We created a fullstack web application.",
+      "Create professional product mockups effortlessly with our customizable tool, perfect for e-commerce sites, offering a quick and user-friendly experience. If you need inspiration, explore our curated sets of mockups.",
     icons: ["javascript", "reactjs", "tailwindcss", "git", "figma"],
     code: "",
     demo: "https://templit.net/",
@@ -33,10 +33,10 @@ export const projectData = [
     link: "https://templit.net/",
   },
   {
-    image: "",
+    image: "/stellarscholars.svg",
     title: "Stellar Scholars",
     description:
-      "We created a fullstack web application.",
+      "This is a short educational game utilizing cloudflare pages and OpenAI's GPT API to educate young minds on the important Concepts of the Galaxy and Gravity.",
     icons: ["reactjs", "pixijs", "javascript", "openai", "tailwindcss", "git", "figma"],
     code: "https://github.com/brohudev/stellar-scholar",
     demo: "http://stellarscholars.tech/",
@@ -44,14 +44,14 @@ export const projectData = [
     link: "http://stellarscholars.tech/",
   },
   {
-    image: "",
+    image: "/bloom.svg",
     title: "Bloom",
     description:
-      "We created a fullstack web application.",
+      "Your digital wellness companion. Cultivate mental well-being through gamified tasks and personalized tree nurturing. Elevating mental health with compassion and innovation.",
     icons: ["figma"],
     code: "",
     demo: "",
-    presentation: "https://docs.google.com/presentation/d/10fuB7g0I9USuqXfd3E4mWJGHU1K7uWNftr1yhKM3yKg/edit?usp=sharing",
+    presentation: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtbX9jNSBJlXaXvGx6PWDHX%2Fbloom---Catalyst-Designathon%3Ftype%3Ddesign%26node-id%3D65-1407%26t%3DYxGivtXy8oCqaFMq-1%26scaling%3Dscale-down%26page-id%3D2%253A4%26starting-point-node-id%3D65%253A1407%26mode%3Ddesign",
     link: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtbX9jNSBJlXaXvGx6PWDHX%2Fbloom---Catalyst-Designathon%3Ftype%3Ddesign%26node-id%3D65-1407%26t%3DYxGivtXy8oCqaFMq-1%26scaling%3Dscale-down%26page-id%3D2%253A4%26starting-point-node-id%3D65%253A1407%26mode%3Ddesign",
   },
   {
