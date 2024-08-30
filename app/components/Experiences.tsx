@@ -3,7 +3,7 @@ export const experiences = [
         position: "Software Engineering Intern - NASA",
         time: "[ August 2024 - December 2024]",
         url: "https://www.nasa.gov/johnson/",
-        description: "I will be working on the CRONUS CI2 Team on Gateway and ISS projects!"
+        description: "I will be working on the CRONUS FOD CI2 Team on Gateway and ISS projects related to developing databases, but more to come soon!"
     },
     {
         position: "Software Engineering Intern - JPMorganChase",
