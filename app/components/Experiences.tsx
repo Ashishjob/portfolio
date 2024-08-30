@@ -1,15 +1,21 @@
 export const experiences = [
     {
-        position: "Incoming SEP Intern - J. P. Morgan Chase & Co.",
-        time: "[ Incoming June 2024 - August 2024 ]",
+        position: "Software Engineering Intern - NASA",
+        time: "[ August 2024 - December 2024]",
+        url: "https://www.nasa.gov/johnson/",
+        description: "I will be working on the CRONUS CI2 Team on Gateway and ISS projects!"
+    },
+    {
+        position: "Software Engineering Intern - JPMorganChase",
+        time: "[ June 2024 - August 2024 ]",
         url: "https://www.jpmorganchase.com/",
-        description: "I will be working on the Infrastructures Platforms Team dealing with fullstack development and deployment, but more details coming soon!"
+        description: "I worked on developing cloud monitoring via upgrading private/on-prem cloud monitoring and integrating public Azure monitoring, refactoring the existing code for significant optimization, proposing AI integrations into the team's existing product, and working on an internal RAG-based copilot tool to optimize developer efficiency."
     },    
     {
         position: "Machine Learning Engineer Intern - NASA",
         time: "[ January 2024 - May 2024]",
         url: "https://www.nasa.gov/johnson/",
-        description: "I optimized a machine learning model, reducing total processing time by 5.26% and CPU time by 3.32%, designed a streamlined database using MS Access for efficient data storage and retrieval, and developed a high-accuracy Neural Network model using Numpy, PyTorch, and Pandas."
+        description: "I optimized a machine learning model, reducing total processing time by 12.31%, designed a streamlined database using MS Access for efficient data storage and retrieval, and developed a high-accuracy Neural Network model using Numpy, PyTorch, and Pandas."
     },    
     {
         position: "Academic Support Assistant - University of Houston",
