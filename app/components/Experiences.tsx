@@ -1,9 +1,21 @@
 export const experiences = [
     {
         position: "Software Engineering Intern - NASA",
-        time: "[ August 2024 - December 2024]",
+        time: "[ August 2024 - Present]",
         url: "https://www.nasa.gov/johnson/",
         description: "I will be working on the CRONUS FOD CI2 Team on Gateway and ISS projects related to developing databases, but more to come soon!"
+    },
+    {
+        position: "Co-founder / Founding Engineer - resumes.fyi",
+        time: "[ April 2024 - Present ]",
+        url: "https://resumes.fyi/",
+        description: "I led the frontend engineering for the application, and helped achieve a growth of 2000+ users and 100+ resume submissions within the first month through strategic marketing"
+    },
+    {
+        position: "Academic Support Assistant - University of Houston",
+        time: "[ August 2023 - Present ]",
+        url: "https://www.uh.edu/nsm/computer-science/",
+        description: "I supported 400+ students in structured procedural programming and elementary functions in Python through code-reviewing, and provided feedback for multiple Python programming assignments."
     },
     {
         position: "Software Engineering Intern - JPMorganChase",
@@ -17,12 +29,6 @@ export const experiences = [
         url: "https://www.nasa.gov/johnson/",
         description: "I optimized a machine learning model, reducing total processing time by 12.31%, designed a streamlined database using MS Access for efficient data storage and retrieval, and developed a high-accuracy Neural Network model using Numpy, PyTorch, and Pandas."
     },    
-    {
-        position: "Academic Support Assistant - University of Houston",
-        time: "[ August 2023 - Present ]",
-        url: "https://www.uh.edu/nsm/computer-science/",
-        description: "I supported 400+ students in structured procedural programming and elementary functions in Python through code-reviewing, and provided feedback for multiple Python programming assignments."
-    },
     {
         position: "Undergraduate Research Assistant - SAIL Lab",
         time: "[ May 2023 - September 2023 ]",
